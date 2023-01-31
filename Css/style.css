@@ -1,0 +1,59 @@
+
+/* font-family: 'Kodchasan', sans-serif; */
+
+.full-container {
+    background-color: #1d4289;
+}
+.head-container {
+    background-color: #060C30;
+}
+#Title-text {
+    font-size: 28px;
+    font-weight: 300;
+    padding: 20px 0px 0px 20px;
+    font-family: Copperplate;
+    color: #F01F37;
+    -webkit-text-stroke: 1px white;
+    /* text-shadow: -0.5px 2px 0px white; */
+}
+#Hero-img {
+    height: 120px;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Copperplate;
+    src: url(/Assets/ttf/OPTICopperplate.otf);
+}
+.go-to-button .nav-link a{
+    color: #F01F37;
+}
+
+.links .btn {
+    color: #fdba28;
+    background-color: #2D3B5E;
+    width: 129px;
+    font-family: Copperplate; font-size: 12px;
+    -webkit-text-stroke: 0.2px white;
+
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px 10px 0px;
+}
+.centered-pic {
+    display: flex;
+    justify-content: center;
+}
+.content-box p {
+    text-align: left;
+    font-family: Copperplate; font-size: 12px;
+    color: #fdba28;
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+
+}
+#Curry-happy {
+    width: 420px;
+}
