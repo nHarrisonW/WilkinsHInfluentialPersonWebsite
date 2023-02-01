@@ -17,7 +17,7 @@
 <body>
     <div class="full-container">
         <div class="head-container">
-            <div class="row">
+            <div class="row" style="margin: 0;">
                 <h1 class="col-6" id="Title-text">My Influential Website</h1>
                 <div class="col-6" >
                     <img id="Hero-img" src="./Assets/StephenCurryHeader.jpeg" alt="">
@@ -25,9 +25,16 @@
             </div>
         </div>
         <div class="col-12 links">
-            <button class="btn">College Career</button>
-            <button class="btn">NBA Career</button>
-            <button class="btn">Achievments and Stats</button>
+            <a class="not-btn" href="./pages/collegeCareer.html">
+                <p id="Buttons">College Career</p>
+            </a>
+            <a class="not-btn" href="./pages/NBACareer.html">
+                <p id="Buttons">NBA Career</p>
+            </a>
+            <a class="not-btn" href="./pages/recordsAndStats.html">
+                <p id="Buttons">Records and Stats</p>
+            </a>
+            
         </div>
         <div class= "centered-pic">
             <img src="./Assets/curry-happy.webp" alt="" id="Curry-happy">
@@ -38,7 +45,7 @@
             <p>At 34 years old, Stephen Curry already holds the record for most points as with the Warriors franchise, as well as the leader in made 3-point shots. Does he have time to give fans one last Championship parade? Michael Jordan won his last Finals MVP award at age 35...</p>
         </div>
         <div class="footer">
-            <a href="" id="Repository"></a>
+            <a href="" id="Repository">Click me for my Github Repository!</a>
         </div>
     </div>
     <script src="./js/app.js"></script>

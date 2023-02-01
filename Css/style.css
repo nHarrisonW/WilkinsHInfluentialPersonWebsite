@@ -3,14 +3,16 @@
 
 .full-container {
     background-color: #1d4289;
+    background: linear-gradient(#1d438984, #1d4289);
 }
 .head-container {
     background-color: #060C30;
+    display: inline-flex;
 }
 #Title-text {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 300;
-    padding: 20px 0px 0px 20px;
+    padding: 5%;
     font-family: Copperplate;
     color: #F01F37;
     -webkit-text-stroke: 1px white;
@@ -29,10 +31,12 @@
     color: #F01F37;
 }
 
-.links .btn {
+.links .not-btn {
     color: #fdba28;
     background-color: #2D3B5E;
     width: 129px;
+    text-align: center;
+    align-content: center;
     font-family: Copperplate; font-size: 12px;
     -webkit-text-stroke: 0.2px white;
 
@@ -48,12 +52,79 @@
 }
 .content-box p {
     text-align: left;
-    font-family: Copperplate; font-size: 12px;
+    font-family: Copperplate; font-size: 80%;
     color: #fdba28;
     padding: 10px 10px 10px 10px;
     margin: 0;
 
 }
 #Curry-happy {
-    width: 420px;
+    width: 370px;
 }
+.footer {
+    text-align: center;
+    padding: 15px;
+}
+#Repository {
+    color: #fdba28;
+}
+a {
+    text-decoration: none;
+    font-family: Copperplate;
+}
+#Buttons {
+    text-align: center;
+    align-content: center;
+    margin-bottom: 0;
+    text-decoration: none;
+    height: 48px;
+}
+
+.stat-list {
+    font-family: Copperplate;
+    color: #fdba28;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.stat-list h1 {
+    color: white;
+}
+li {
+    margin: 3px;
+}
+/* Small */
+@media screen and (max-width: 370px) {
+  #Curry-happy {
+      width: 300px;
+  }
+  #Hero-img {
+    display: none;
+  }
+  #Title-text {
+      font-size: 24px;
+  }
+}
+
+/* Big */
+  @media screen and (min-width: 650px) {
+    #Curry-happy {
+        width: 800px;
+    }
+    #Hero-img {
+        width: 500px;
+        height: auto;
+        position: relative;
+    }
+    #Title-text {
+        font-size: 46px;
+    }
+    #Buttons {
+        height: 100px;
+        align-content: center;
+    }
+  }
+  @media screen and (min-width: 1100px) {
+    #Title-text {
+        font-size: 56px;
+    }
+  }
